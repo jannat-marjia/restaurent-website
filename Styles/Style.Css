@@ -70,6 +70,30 @@ body{
    text-align: center;
  }
 
+.foodButton{
+  background-color: rgb(201, 247, 37);
+  padding: 20px 55px ;
+  margin-bottom:20px  ;
+  border-radius: 10px;
+  width: 5%;
+  rotate: -52deg;
+  justify-content: space-between;
+  font-size: 20px;
+  box-shadow: 2px 1px 2px 2px rebeccapurple;
+  
+}
+.foodButton:hover{
+  box-shadow:2px 1px 2px 2px royalblue ;
+}
+.box8{
+  display: flex;
+  justify-content: center;
+  margin: 20px 30px;
+  padding: 20px 30px;
+
+}
+
+
 
  
 
