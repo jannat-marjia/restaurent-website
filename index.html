@@ -1,125 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resturent-website</title>
-    <script src="https://kit.fontawesome.com/eb7cd1d737.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/eb7cd1d737.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link rel="stylesheet" href="Styles/Style.Css">
-</head>
-<body>
+    <link rel="stylesheet" href="Styles/Style.Css" />
+  </head>
+  <body>
     <div class="navContainer">
-        <div class="navBer">
-          <li>Home</li>
-          <li>Menu</li>
-          <li>Order</li>
-          <li>Contact <i style="margin-left: 5px;" class="fa-solid fa-bars" ></i></li>
-          
-        </div>
+      <div style="margin: 0 20px 0 60px">
+        <p
+          style="
+            font-size: 20px;
+            font-weight: medium;
+            margin: o 10px;
+            color: azure;
+          "
+        >
+          <i
+            style="font-size: 30px; color: azure"
+            class="fa-solid fa-mug-hot"
+          ></i>
+        </p>
+      </div>
+      <div class="navBer">
+        <li>Home</li>
+        <li>
+          <a
+            href="Menu.html"
+            target="_blank"
+            style="color: white; text-decoration: none"
+            >Menu</a
+          >
+        </li>
+        <li>Order</li>
+        <li>
+          Contact <i style="margin-left: 5px" class="fa-solid fa-bars"></i>
+        </li>
+      </div>
     </div>
+
     <div class="box7">
-        <video controls autoplay>
-            <source src="video/food video.mp4" type="video/mp4">
-        </video>
+      <video controls autoplay>
+        <source src="video/food video.mp4" type="video/mp4" />
+      </video>
     </div>
     <div class="box">
-        <div class="box1">
-         <h1><span style="color: rgb(153, 218, 32);">It's</span> not just<br> Food it's an
-          Exprience
-         </h1>
-        </div>
-        <div class="box2">
-            <img src="images/Project Cover.png" alt="images">
-        </div>
+      <div class="box1">
+        <h1>
+          <span style="color: rgb(153, 218, 32)">It's</span> not just<br />
+          Food it's an Exprience
+        </h1>
+      </div>
+      <div class="box2">
+        <img src="images/Project Cover.png" alt="images" />
+      </div>
     </div>
     <div class="box4">
-        <div class="child">
-            <img src="images/6667872_preview-removebg-preview.png" alt="img">
-        </div>
-        <div class="box5">
-          <h2><span style="color: gold;">GOOD'S </span>FooD</h2>
-          <P> <span style="color: rgb(108, 194, 22);">Lorem</span>, ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi dolore necessitatibus architecto.
-             Facere, placeat. Provident sed voluptas Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quam laboriosam illum architecto molestias deleniti magni, ipsum culpa. Vero dicta beatae officia cum
-              suscipit fugiat iusto, eos delectus repellendus repudiandae provident!</P>
-        </div>
-    </div>
-    <div class="box8" >
-        <h6 class="foodButton"> FRESH-FOOD</h6>
-        <h6 class="foodButton">TESTY-FOOD</h6>
+      <div class="child">
+        <img src="images/6667872_preview-removebg-preview.png" alt="img" />
       </div>
+      <div class="box5">
+        <h2><span style="color: gold">GOOD'S </span>FooD</h2>
+        <p>
+          <span style="color: rgb(108, 194, 22)">Lorem</span>, ipsum dolor sit
+          amet consectetur adipisicing elit. Quo excepturi dolore necessitatibus
+          architecto. Facere, placeat. Provident sed voluptas Lorem ipsum dolor,
+          sit amet consectetur adipisicing elit. Quam laboriosam illum
+          architecto molestias deleniti magni, ipsum culpa. Vero dicta beatae
+          officia cum suscipit fugiat iusto, eos delectus repellendus
+          repudiandae provident!
+        </p>
+      </div>
+    </div>
+    <div   data-aos="zoom-in" data-aos-duration="1000" class="box8">
+      <h6 class="foodButton">FRESH-FOOD</h6>
+      <h6 class="foodButton">TESTY-FOOD</h6>
+    </div>
 
-       <div class="foods">
-         <div class="foodmenu">
-            <div class="foodimg">
-            <img src="images/images-2.jfif" alt="">
-            </div>
-            <h4 style="font-size: 20px;">Big khecuri</h4>
-            <p> khecuri  dolor sit amet consectetur adipisicing elit. Eos obcaecati similique explicabo qui amet impedit velit error, 
-                sint dicta perferendis!</p>
-                <a href="#"  class="button">FREE</a>
-         </div>
-         <div class="foodmenu">
-            <div class="foodimg">
-            <img src="images/images-3.jfif" alt="">
-            </div>
-            <h4 style="font-size: 20px;">Pasta</h4>
-            <p>  pasta is sit amet consectetur adipisicing elit. Aut reiciendis asperiores voluptatum nostrum nemo illum ipsa quod
-                 tempora pariatur nisi.</p>
-
-                 <a href="#" class="button">FREE</a>
-         </div>
-         <div class="foodmenu">
-            <div class="foodimg">
-            <img src="images/images-4.avif" alt="">
-            </div>
-            <h4 style="font-size: 20px;">Momos</h4>
-            <p>this is momos amet consectetur adipisicing elit. Atque inventore itaque maiores,
-                ab tempora porro reprehenderit.</p>
-
-                <a href="#" class="button">FREE</a>
-         </div>
-         <div class="foodmenu">
-            <div class="foodimg">
-            <img src="images/images-5.JPG" alt="">
-            </div>
-            <h4 style="font-size: 20px;">Sobji Khecuri</h4>
-            <p>This is sobji khecuri amet consectetur adipisicing elit. Soluta molestias a ullam ea,
-                 quasi magni asperiores! Maiores cupiditate inventore porro?</p>
-
-                 <a href="#" class="button">FREE</a>
-         </div>
-       </div>
-
-        <div class="order">
-            <div class="order image" > 
-                <h4 style="font-size: 40px; color: rgb(199, 54, 54); padding: 20px 30px; text-align: center;">BOOK  <span style="color: white;">An</span> Order</h4>
-                <div class="bookingField">
-                 <input class="orderField"  type="text" />
-                 <input class="orderField"  type="text" placeholder="Enter Service Name"/>
-                 <input class="orderField"  type="date" name="datetime" placeholder="Enter Date" />
-                </div>
-                <div class="orderButton">
-                 <a href="#" class="commonButton" onclick="success()" >Place Order</a>
-                </div>
-         
-       
-              </div>
-
+    <div class="foods">
+      <div data-aos="flip-left"      data-aos-duration="2000"    class="foodmenu">
+        <div class="foodimg">
+          <img src="images/images-2.jfif" alt="" />
         </div>
-       
-        <script>
-            function success(){
-                Swal.fire({
-  icon: "success",
-  title: "yes",
-  text: "your order is booked",
+        <h4 style="font-size: 20px">Big khecuri</h4>
+        <p>
+          khecuri dolor sit amet consectetur adipisicing elit. Eos obcaecati
+          similique explicabo qui amet impedit velit error, sint dicta
+          perferendis!
+        </p>
+        <a href="#" class="button">FREE</a>
+      </div>
+      <div data-aos="flip-left"       data-aos-duration="2000"   class="foodmenu">
+        <div class="foodimg">
+          <img src="images/images-3.jfif" alt="" />
+        </div>
+        <h4 style="font-size: 20px">Pasta</h4>
+        <p>
+          pasta is sit amet consectetur adipisicing elit. Aut reiciendis
+          asperiores voluptatum nostrum nemo illum ipsa quod tempora pariatur
+          nisi.
+        </p>
 
-});
-}
-             </script>
+        <a href="#" class="button">FREE</a>
+      </div>
+      <div  data-aos="flip-right" data-aos-duration="2000" class="foodmenu">
+        <div class="foodimg">
+          <img src="images/images-4.avif" alt="" />
+        </div>
+        <h4 style="font-size: 20px">Momos</h4>
+        <p>
+          this is momos amet consectetur adipisicing elit. Atque inventore
+          itaque maiores, ab tempora porro reprehenderit.
+        </p>
 
-    </body>
+        <a href="#" class="button">FREE</a>
+      </div>
+      <div  data-aos="flip-right" data-aos-duration="2000" class="foodmenu">
+        <div class="foodimg">
+          <img src="images/images-5.JPG" alt="" />
+        </div>
+        <h4 style="font-size: 20px">Sobji Khecuri</h4>
+        <p>
+          This is sobji khecuri amet consectetur adipisicing elit. Soluta
+          molestias a ullam ea, quasi magni asperiores! Maiores cupiditate
+          inventore porro?
+        </p>
 
+        <a href="#" class="button">FREE</a>
+      </div>
+    </div>
+
+    <div data-aos="fade-up"
+    data-aos-duration="3000"class="order">
+      <div class="order image">
+        <h4
+          style="
+            font-size: 40px;
+            color: rgb(199, 54, 54);
+            padding: 20px 30px;
+            text-align: center;
+          "
+        >
+          BOOK <span style="color: white">An</span> Order
+        </h4>
+        <div class="bookingField">
+          <input class="orderField" type="text" />
+          <input
+            class="orderField"
+            type="text"
+            placeholder="Enter Service Name"
+          />
+          <input
+            class="orderField"
+            type="date"
+            name="datetime"
+            placeholder="Enter Date"
+          />
+        </div>
+        <div class="orderButton">
+          <a href="#" class="commonButton" onclick="success()">Place Order</a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function success() {
+        Swal.fire({
+          icon: "success",
+          title: "yes",
+          text: "your order is booked",
+        });
+      }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
