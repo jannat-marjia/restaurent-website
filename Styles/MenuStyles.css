@@ -1,5 +1,5 @@
  body{
-    background-color: rgb(147, 235, 60);
+    background-color: rgb(204, 240, 168);
  }
 
 .imgBox{
@@ -44,7 +44,7 @@
 }
 .foodtext{
     text-align: center;
-     font-size: 20px;
+     font-size: 23px;
      font-family: serif;
-     color: blue;
+     color: rgb(95, 95, 233);
 }
